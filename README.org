@@ -46,8 +46,8 @@ $ cargo run --release
 #+END_SRC
 ** From crates.io
 #+BEGIN_SRC shell
-$ cargo install perorustbot
-$ perorustbot
+$ cargo install okaerirustbot
+$ okaerirustbot
 #+END_SRC
 
 * Commands available currently
