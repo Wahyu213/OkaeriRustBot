@@ -5,7 +5,7 @@ use teloxide::types::ParseMode::Html;
 pub async fn perocmd_help(cx: UpdateWithCx<AutoSend<Bot>, Message>) -> ResponseResult<Message> {
     cx.reply_to(format!("Hello! {},
 
-I'm a bot made by <a href='https://t.me/zenfrans'>Pero Sar</a> in <a href='https://rust-lang.org'>rust</a>
+I'm a bot made by <a href='https://t.me/zenfrans'>Zen</a> in <a href='https://rust-lang.org'>rust</a>
 Here's a list of my commands:
 <code>/help</code> - <i>display this text.</i>
 <code>/say [text to echo]</code> - <i>make me echo any text.</i>
