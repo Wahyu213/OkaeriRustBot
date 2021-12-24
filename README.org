@@ -18,7 +18,6 @@
 - [[#find-this-bot][Find this bot]]
 :END:
 
-[[https://img.shields.io/crates/v/okaerirustbot.svg]]
 [[https://github.com/Wahyu213/OkaeriRustBot/actions/workflows/rust.yml/badge.svg?branch=dev]]
 
 
