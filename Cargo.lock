@@ -707,6 +707,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "okaerirustbot"
+version = "0.1.3"
+dependencies = [
+ "log",
+ "pretty_env_logger",
+ "reqwest",
+ "serde_json",
+ "spamprotection",
+ "teloxide",
+ "tokio",
+]
+
+[[package]]
 name = "once_cell"
 version = "1.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -774,19 +787,6 @@ name = "percent-encoding"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e"
-
-[[package]]
-name = "okaerirustbot"
-version = "0.1.3"
-dependencies = [
- "log",
- "pretty_env_logger",
- "reqwest",
- "serde_json",
- "spamprotection",
- "teloxide",
- "tokio",
-]
 
 [[package]]
 name = "pest"
@@ -1099,9 +1099,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.73"
+version = "1.0.89"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bcbd0344bc6533bc7ec56df11d42fb70f1b912351c0825ccb7211b59d8af7cf5"
+checksum = "020ff22c755c2ed3f8cf162dbb41a7268d934702f3ed3631656ea597e08fc3db"
 dependencies = [
  "itoa 1.0.1",
  "ryu",
